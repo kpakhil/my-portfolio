@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Registration page</title>
+</head>
+
+<body bgcolor="Lightskyblue">
+
+<form>
+
+<label>First Name:</label>
+<input type="text" name="firstname" size="15"/> <br> <br>
+
+<label>Last Name:</label>
+<input type="text" name="lastname" size="15"/> <br> <br>
+
+<label>User Name:</label>
+<input type="text" name="username" size=15"/> <br> <br>
+
+<label>Password:</label>
+<input type="Password" id="pass" name="pass"/><br>
+
+<label>Re-type password:</label>
+<input type="Password" id="repass" name="repass"/><br><br>
+
+<label>Address:</label>
+<textarea="80" rows="5" value="address">
+</textarea>
+<br><br>
+
+<label>Date of Birth:</label>
+<input type="date" name="dto" id="date_timepicker_end"/>
+
+<label>Sex:</label>
+<input type="radio" name="male"/>Male<br>
+<input type="radio" name="female"/>Female<br>
+<br>
+
+<label>Marital Status:</label>
+<input type="radio" name="single"/>Single<br>
+<input type="radio" name="married"/>Married<br>
+<br>
+
+<label>Phone:</label>
+<input type="text" name="phone" size="10"/>
+<br><br>
+
+<label>Branch:</label>
+<input type="radio" name="CSE"/>CSE<br>
+<input type="radio" name="IS"/>IS<br>
+<input type="radio" name="ECE"/>ECE<br>
+<input type="radio" name="EEE"/>EEE<br>
+<input type="radio" name="M.Tech"/>M.Tech<br>
+<br>
+
+<label>Languages Known:</label>
+
+<input type="checkbox" name="English"/>English<br>
+<input type="checkbox" name="Telugu"/>Telugu<br>
+<input type="checkbox" name="Kannada"/>Kannada<br>
+<input type="checkbox" name="Tamil"/>Tamil<br>
+<input type="checkbox" name="Hindi"/>Hindi<br>
+<br>
+</form>
+</body>
+</html>
